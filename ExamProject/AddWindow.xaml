@@ -1,0 +1,36 @@
+﻿<Window x:Class="ExamProject.AddWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:ExamProject"
+        mc:Ignorable="d"
+        Title="AddItem" Height="450" Width="1089"
+        Name="MenuWindow" Loaded="MenuWindow_Loaded"
+        >
+    <Grid>
+        <Button Content="Add" FontSize="25" HorizontalAlignment="Left" Margin="295,155,0,0" VerticalAlignment="Top" RenderTransformOrigin="-0.492,0.389" Height="71" Width="335" Click="Add_Button_Click" Grid.Column="3"/>
+        <TextBox  x:Name="Name_TextBox" HorizontalAlignment="Left" Margin="15,106,0,0"  TextWrapping="Wrap" VerticalAlignment="Top" Width="200" Height="44" Grid.ColumnSpan="4"/>
+        <TextBlock HorizontalAlignment="Left" Margin="19,62,0,0" FontSize="18" Text="Name" TextWrapping="Wrap" VerticalAlignment="Top" Height="29" Width="158" Grid.ColumnSpan="4"/>
+        <TextBox  x:Name="VersionName_TextBox" HorizontalAlignment="Left" Margin="136,106,0,0"  TextWrapping="Wrap" VerticalAlignment="Top" Width="180" Height="44" Grid.Column="3"/>
+        <TextBlock HorizontalAlignment="Left" Margin="140,62,0,0" FontSize="18" Text="Version Name" TextWrapping="Wrap" VerticalAlignment="Top" Height="29" Width="160" Grid.Column="3"/>
+        <TextBox  x:Name="QuantityOfPages_TextBox" HorizontalAlignment="Left" Margin="324,106,0,0"  TextWrapping="Wrap" VerticalAlignment="Top" Width="180" Height="44" Grid.Column="3"/>
+        <TextBlock HorizontalAlignment="Left" Margin="328,62,0,0" FontSize="18" Text="QuantityOfPages" TextWrapping="Wrap" VerticalAlignment="Top" Height="29" Width="158" Grid.Column="3"/>
+        <TextBox  x:Name="Genres_TextBox" HorizontalAlignment="Left" Margin="508,106,0,0"  TextWrapping="Wrap" VerticalAlignment="Top" Width="180" Height="44" Grid.Column="3"/>
+        <TextBlock HorizontalAlignment="Left" Margin="512,62,0,0" FontSize="18" Text="Genres" TextWrapping="Wrap" VerticalAlignment="Top" Height="29" Width="160" Grid.Column="3"/>
+        <CheckBox Content="Has a sequel" x:Name="HasSequel_CheckBox" FontSize="20" HorizontalAlignment="Left" Margin="855,65,0,0" VerticalAlignment="Top" Height="63" Width="150" Grid.Column="3"/>
+        <TextBox  x:Name="Price_TextBox" HorizontalAlignment="Left" Margin="686,106,0,0"  TextWrapping="Wrap" VerticalAlignment="Top" Width="180" Height="44" Grid.Column="3"/>
+        <TextBlock  HorizontalAlignment="Left" Margin="690,62,0,0" FontSize="18" Text="Price" TextWrapping="Wrap" VerticalAlignment="Top" Height="29" Width="160" Grid.Column="3"/>
+        <TextBlock Grid.Column="3" Foreground="Coral" HorizontalAlignment="Left" Margin="371,10,0,0" FontSize="25" Text="Book" TextWrapping="Wrap" VerticalAlignment="Top" Height="40" Width="174"/>
+        <TextBox  x:Name="FirstName_textBox" HorizontalAlignment="Left" Margin="281,330,0,0"  TextWrapping="Wrap" VerticalAlignment="Top" Width="200" Height="44"/>
+        <TextBlock  HorizontalAlignment="Left" Margin="285,286,0,0" FontSize="18" Text="First Name" TextWrapping="Wrap" VerticalAlignment="Top" Height="29" Width="158"/>
+        <TextBox  x:Name="LastName_textBox" HorizontalAlignment="Left" Margin="514,330,0,0"  TextWrapping="Wrap" VerticalAlignment="Top" Width="180" Height="44"/>
+        <TextBlock  HorizontalAlignment="Left" Margin="518,286,0,0" FontSize="18" Text="Last name" TextWrapping="Wrap" VerticalAlignment="Top" Height="29" Width="160"/>
+        <TextBlock Foreground="Coral" HorizontalAlignment="Left" Margin="371,241,0,0" FontSize="25" Text="Author" TextWrapping="Wrap" VerticalAlignment="Top" Height="40" Width="174"/>
+        <ComboBox x:Name="Books_ComboBox" HorizontalAlignment="Left" Margin="59,343,0,0" VerticalAlignment="Top" Width="139" Height="38"/>
+        <TextBlock  HorizontalAlignment="Left" Margin="57,296,0,0" FontSize="18" Text="Choose book" TextWrapping="Wrap" VerticalAlignment="Top" Height="29" Width="158"/>
+        <Button Click="AddButton_Click" Content="Add Author" FontSize="25" HorizontalAlignment="Left" Margin="776,330,0,0" VerticalAlignment="Top" Height="60" Width="214"/>
+        <Button Content="Cancel" FontSize="25" HorizontalAlignment="Left" Margin="869,188,0,0" VerticalAlignment="Top" Height="56" Width="164" Click="Button_Click"/>
+
+    </Grid>
+</Window>

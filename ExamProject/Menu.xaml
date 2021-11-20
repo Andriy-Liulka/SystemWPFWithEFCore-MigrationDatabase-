@@ -1,0 +1,19 @@
+﻿<Window x:Class="ExamProject.Menu"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:ExamProject"
+        mc:Ignorable="d"
+        Title="Menu" Height="450" Width="1089"
+        Name="MenuWindow" Loaded="MenuWindow_Loaded"
+        >
+    <Grid HorizontalAlignment="Center" Width="1089">
+        <Button Content="AddWindow" FontSize="25" HorizontalAlignment="Center" Margin="0,24,0,0" VerticalAlignment="Top" Height="65" Width="334" Click="AddWindow_Button_Click"/>
+        <Button Content="CheckAllBooks" FontSize="25" HorizontalAlignment="Center" Margin="0,137,0,0" VerticalAlignment="Top" Height="65" Width="334" Click="CheckDatabase_Button_Click"/>
+        <Button Content="Delete Book" FontSize="25" HorizontalAlignment="Center" Margin="0,231,0,0" VerticalAlignment="Top" Height="65" Width="334" Click="DeleteEntity_Button_Click"/>
+        <Button Content="Search" FontSize="25" HorizontalAlignment="Center" Margin="0,326,0,0" VerticalAlignment="Top" Height="74" Width="334" Click="Button_Click"/>
+
+
+    </Grid>
+</Window>

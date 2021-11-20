@@ -1,0 +1,14 @@
+﻿<Window x:Class="ExamProject.CheckAllListOfBooks"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:ExamProject"
+        mc:Ignorable="d"
+        Title="CheckAllListOfBooks" Height="462" Width="800" Loaded="Window_Loaded">
+    <Grid>
+        <DataGrid x:Name="Datagrid" Background="LightGray" Margin="10,10,10,73"></DataGrid>
+        <Button Content="C a n c e l" FontSize="15" HorizontalAlignment="Left" Margin="182,378,0,0" VerticalAlignment="Top" Height="31" Width="399" Click="Button_Click"/>
+
+    </Grid>
+</Window>
